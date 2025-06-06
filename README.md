@@ -21,7 +21,7 @@ The files in this folder contains the basic building blocks for setting up a Doc
 
 -   Copy all the files in this folder to where you would like to set up the project
 
--   In **.env** set custom values for `DB_PASSWORD`, `DB_NAME`, `CLOUDBEAVER_ADMIN` and `CLOUDBEAVER_PASSWORD`
+-   In **.env** set custom values for `DB_PASSWORD`, `DB_NAME`, `CLOUDBEAVER_ADMIN` and `CLOUDBEAVER_PASSWORD` - DO NOT CHANGE `DB_USER=postgres`
 
 -   If you are creating a git repository, add .env to the .gitignore
 
