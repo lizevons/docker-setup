@@ -165,3 +165,6 @@ Once you are done building the database, you can make your Docker container syst
 2.  Save the backup file in the init folder - together with 00-init.sql.
 
 3.  Run `docker-compose up`
+
+> [!Warning]
+> Because the pg_dump was created with a `--clean` statement, this process can potentially overwrite an existing database if you create a new container with the same name as an existing container. Implement with care!
